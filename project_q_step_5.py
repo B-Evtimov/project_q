@@ -9,7 +9,7 @@ import numpy as np
 print("CUDA available:", torch.cuda.is_available())
 
 # База данни с валидни номера
-VALID_IDS = {"CA1234BG", "CB5678SO", "TX9876NY", "CA5069MA"}
+VALID_IDS = {"CA1234BG", "CB5678SO", "TX9876NY", "CA5069MA", "CA5969MA"}
 
 # Свързване към Micro:bit (COM5)
 microbit = serial.Serial("COM5", 115200)
