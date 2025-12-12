@@ -6,15 +6,15 @@ import time
 import torch
 import numpy as np
 
-# Импорт на базата от отделния файл
+# Import the database from a separate file
 from valid_db import VALID_DB
 
 print("CUDA available:", torch.cuda.is_available())
 
-# Свързване към Micro:bit (COM5)
+# Connecting to Micro:bit (COM5)
 microbit = serial.Serial("COM5", 115200)
 
-# OCR engine с GPU
+# OCR engine with GPU
 reader = easyocr.Reader(['en'], gpu=True)
 
 def correct_plate(text):
@@ -81,4 +81,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-#използва база данни
+#using db from file valid_db.py
