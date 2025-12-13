@@ -1,12 +1,12 @@
-# 🚗 Automatic License Plate Recognition and Access Control with Micro:bit
+#  Automatic License Plate Recognition and Access Control with Micro:bit
 
-## 📌 Overview
+##  Overview
 This project demonstrates an integrated system for **automatic license plate recognition** using Python (OCR with EasyOCR + OpenCV) and **hardware control** via a BBC Micro:bit.  
 The goal is to simulate an **automated access control system** where recognized license plates trigger physical actions such as LEDs, a servo motor, and sound alarms.
 
 ---
 
-## 🧩 Components
+##  Components
 
 ### Python (OCR + Control)
 - Uses **EasyOCR** and **OpenCV** to detect and read license plates from a camera.
@@ -36,7 +36,7 @@ The goal is to simulate an **automated access control system** where recognized 
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 1. Camera captures a license plate.
 2. Python OCR script processes the image and validates the plate.
 3. If plate is valid:
@@ -54,14 +54,14 @@ The goal is to simulate an **automated access control system** where recognized 
 
 ---
 
-## 🚀 Demonstration
+##  Demonstration
 - **Valid plate** → Green LED, servo rotates, owner name displayed, then returns to red LED.  
 - **Invalid plate** → Red LED + alarm for 15 seconds.  
 - **Manual override** → Buttons A/B simulate the same behavior without Python.
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 - Python 3.9+
 - Libraries: `easyocr`, `opencv-python`, `torch`, `numpy`, `pyserial`
 - BBC Micro:bit with USB connection
@@ -69,7 +69,7 @@ The goal is to simulate an **automated access control system** where recognized 
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 This project is designed as a **practical demonstration** of combining:
 - Computer vision (OCR)
 - Hardware control (Micro:bit)
@@ -80,6 +80,6 @@ It can be used for **educational purposes**, **IoT prototypes**, or as a foundat
 
 ---
 
-## 📖 Author
+##  Author
 Developed by **Boris Evtimov**  
 Focused on scalable, practical solutions combining **Python, electronics, and cloud-ready architectures**.
