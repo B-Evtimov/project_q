@@ -1,3 +1,5 @@
+# bluetooth version
+
 import cv2
 import easyocr
 import re
